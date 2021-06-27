@@ -3,6 +3,7 @@
 :root {
     --primary-color: #4F46E5;
     --dark-gray: #4B5563;
+    --off-white: #D1D5DB;
 }
 
 body {
@@ -71,6 +72,13 @@ hr {
     border: 1px solid var(--primary-color);
     border-radius: 0.5rem;
 }
+.section{
+    padding: 1rem;
+}
+.section .off-white {
+    color: #D1D5DB;
+}
+
 .list-no-bullet {
     list-style: none;
 }
