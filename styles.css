@@ -8,6 +8,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    margin: 0px;
 }
 hr {
     margin: 2rem 0rem 1rem 0rem;
@@ -85,4 +86,18 @@ hr {
 .list-item-inline {
     display: inline;
     padding-left: 0.5rem;
+}
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem 0rem;
+    color: white;
+    text-align: center;
+    border-bottom-right-radius: 1rem;
+}
+.footer .link {
+    color: white;
+
+}
+.footer ul {
+    padding-inline-start: 0px;
 }
