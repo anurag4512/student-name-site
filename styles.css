@@ -2,6 +2,7 @@
 
 :root {
     --primary-color: #4F46E5;
+    --dark-gray: #4B5563;
 }
 
 body {
@@ -29,7 +30,23 @@ hr {
 .navigation a:hover {
     font-weight: bold;
 }
-
+.hero {
+    padding: 2rem;
+}
+.hero .hero-img {
+    max-width: 450px;
+    display: block;
+    margin: auto;
+}
+.hero .hero-header {
+    text-align: center;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    color: var(--dark-gray);
+}
+.hero .hero-header .hero-var {
+    color: var(--primary-color);
+}
 
 .container {
     padding-left: 1rem;
