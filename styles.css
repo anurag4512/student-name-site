@@ -39,6 +39,6 @@ hr {
     border: 1px solid var(--primary-color);
     border-radius: 0.5rem;
 }
-.list{
-    text-decoration: none;
+.list-no-bullet{
+    list-style: none;
 }
