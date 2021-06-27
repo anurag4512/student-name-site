@@ -3,7 +3,7 @@
 :root {
     --primary-color: #4F46E5;
     --dark-gray: #4B5563;
-    --off-white: #D1D5DB;
+    --off-white: #E5E7EB;
 }
 
 body {
@@ -75,8 +75,8 @@ hr {
 .section{
     padding: 1rem;
 }
-.section .off-white {
-    color: #D1D5DB;
+.off-white {
+    background-color: var(--off-white);
 }
 
 .list-no-bullet {
