@@ -5,35 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>student-name-site</title>
-    <style>
-        body{
-            color: red;
-        }
-    </style>
+    <link href="styles.css" rel="stylesheet" /> 
 </head>
+
 <body>
 
-    <h1>Anurag's Portfolio</h1>
+    <h1 id="lib-header">Anurag's Portfolio</h1>
+
+    <h2>@nav</h2>
 
     <nav>
+        
         <div>I am Developer</div>
 
         <ul>
             <li>
-                <a href="">Home</a>
+                <a class="nav" href="">Home</a>
             </li>
 
             <li>
-                <a href="">Project</a>
+                <a class="nav" href="">Project</a>
             </li>
 
             <li>
-                <a href="">Blogs</a>
+                <a class="nav" href="">Blogs</a>
             </li>
         </ul>
     </nav>
 
     <hr />
+
     <div>
         <p>Hi! I am Anurag Kumar.</p>
 
@@ -48,8 +49,86 @@
     <hr />
 
     <header>
-        <img src="image/proud_coder.svg"/>
+        <h2>@header</h2>
+        <img src="image/proud_dev.svg"/>
     </header>
+
+    <hr />
+
+    <h2>@container</h2>
+
+    <h3 >fluid container</h3>
+    <div class="container">This is a fluid container and will go till the end of the page.</div>
+
+    <h3 >center container</h3>
+    <div class="container container-center">This is a centered container and will go till the specified width.</div>
+
+    <hr />
+
+    <h2>@links</h2>
+    <a class="link link-primary" href="">Primary link</a>
+    <a class="link link-secondary" href="">Secondary link</a>
+
+    <hr />
+
+
+    <h2>@section</h2>
+
+    <section>
+        
+        <h3>White section</h3>
+        <div>This section has white background.</div>
+
+    </section>
+
+    <section>
+        <h3>Off-white section</h3>
+        <div>This section has gray background.</div>
+    </section>
+
+    <hr />
+
+    <h2>@list</h2>
+    <h3>unordered list</h3>
+    <ul class="list">
+        <li>itemOne</li>
+        <li>itemTwo</li>
+        <li>itemThree</li>
+    </ul>
+
+    <h3>unordered inline list</h3>
+    <ul class="list">
+        <li>inline itemOne</li>
+        <li>inline itemTwo</li>
+        <li>inline itemThree</li>
+    </ul>
+
+    <h3>reverse ordered list</h3>
+    <ol>
+        <li>ordered listOne</li>
+        <li>ordered listTwo</li>
+        <li>ordered listThree</li>
+    </ol>
+
+    <hr />
+
+    <h2>@footer</h2>
+
+    <footer>
+        
+        <ul>
+            <li>
+                <a href="">SocialOne</a>
+            </li>
+
+            <li>
+                <a href="">SocialTwo</a>
+            </li>
+
+            <li><a href="">Social Three</a>
+            </li>
+        </ul>
+    </footer>
 
    
 </body>
