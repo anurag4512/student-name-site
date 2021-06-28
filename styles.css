@@ -93,7 +93,6 @@ hr {
     padding-left: 0.5rem;
 }
 .list-section {
-    padding: 1rem;
     display: block;
 }
 
@@ -109,5 +108,8 @@ hr {
 
 }
 .footer ul {
+    padding-inline-start: 0px;
+}
+.inline-pad {
     padding-inline-start: 0px;
 }
