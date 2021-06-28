@@ -39,6 +39,7 @@ hr {
 }
 .hero {
     padding: 2rem;
+    padding-top: 5rem; 
 }
 .hero .hero-img {
     max-width: 450px;
@@ -93,7 +94,7 @@ hr {
     padding-left: 0.5rem;
 }
 .list-section {
-    display: block;
+  /**  display: block; **/
 }
 
 .footer {
