@@ -79,6 +79,21 @@ hr {
     border: 1px solid var(--primary-color);
     border-radius: 0.5rem;
 }
+.link-blog {
+    color: var(--primary-color);
+   /** padding: 0.5rem 5rem 0.5rem 7rem;**/
+   padding: 0.5rem 0rem;
+   
+}
+
+.section-text {
+    margin: auto;
+}
+.section-pad {
+    /**padding: 0.5rem 5rem 0.5rem 7rem;**/
+    padding: 0.5rem 0rem;
+}
+
 .section{
     padding: 1rem;
 }
@@ -92,9 +107,6 @@ hr {
 .list-item-inline {
     display: inline;
     padding-left: 0.5rem;
-}
-.list-section {
-  /**  display: block; **/
 }
 
 .footer {
