@@ -42,7 +42,8 @@ hr {
     padding-top: 5rem; 
 }
 .hero .hero-img {
-    max-width: 450px;
+    width: 450px;
+    max-width: 80%;
     display: block;
     margin: auto;
 }
